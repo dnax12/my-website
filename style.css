@@ -1,11 +1,13 @@
 body { 
     background-image: url(images/web2.jpg)  ; 
-   
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
 }
 p{
     border-style:solid; 
     border-radius: 10px;
-    border-color: rgb(0, 47, 255);
+    border-color: rgb(0, 0, 0);
     border-width: 1px;
     padding: 10px;
     max-width: 750px;
@@ -20,20 +22,22 @@ p{
 }
 .headertext
 {
-    color: #280501;
+    color: #f82008;
     letter-spacing: 2px;
     line-height: 1.8;
     text-align: center;
-    text-decoration: overline;
+    text-decoration: none !important;
     font-size: 1em;
     
     
 }
 .headerdescription
 {
-    text-transform: uppercase;
     font-size: 1em;
     color: #0699f5;
     text-align: center;
     text-shadow: 4px 6px rgb(168, 168, 233)
+}
+.hello{
+    text-transform: uppercase;
 }
