@@ -10,4 +10,32 @@ p{
     border-color: rgb(0, 47, 255);
     border-width: 1px;
     padding: 10px;
+    max-width: 750px;
+}
+.skill{
+    background-color: #dfedf6;
+    padding: 20px;
+    color: rgb(15, 12, 12);
+    border-radius: 10px;
+    width: 200px;
+
+}
+.headertext
+{
+    color: #280501;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    text-align: center;
+    text-decoration: overline;
+    font-size: 1em;
+    
+    
+}
+.headerdescription
+{
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #0699f5;
+    text-align: center;
+    text-shadow: 4px 6px rgb(168, 168, 233)
 }
