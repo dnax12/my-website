@@ -60,19 +60,19 @@ a:link, a:visited {
   tr:hover{
     background-color: #da8e8e;
   }
-  #upbutton{
+  #goUpButton {
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 9999;
-    color: #7e2f2f;
+    color: #fff;
     border: none;
-    border-radius: 50%;
+    border-radius: 100%;
     width: 50px;
     height: 50px;
     cursor: pointer;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  .goup{
+}
+.goup{
     width: 100%;
-  }
+}
