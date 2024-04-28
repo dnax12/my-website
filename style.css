@@ -1,5 +1,13 @@
 body { 
-    background-image: url(images/web2.jpg);
+    background-image: url(images/web2.jpg)  ; 
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center ;
+    background-attachment: fixed;
+}
+p{
+    border-style:solid; 
+    border-radius: 10px;
+    border-color: rgb(0, 47, 255);
+    border-width: 1px;
+    padding: 10px;
 }
