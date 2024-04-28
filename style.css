@@ -3,6 +3,9 @@ body {
     background-size:cover;
     background-attachment: fixed;
     background-position: bottom;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 p{
     border-style:solid; 
@@ -13,7 +16,7 @@ p{
     max-width: 7500px;
 }
 .skill{
-    background-color: #dfedf6;
+    background-color: #e7f1f8;
     padding: 20px;
     color: rgb(15, 12, 12);
     border-radius: 10px;
@@ -23,3 +26,53 @@ p{
 .hello{
     text-transform: uppercase;
 }
+.name {
+    text-align: center;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+.contact :link{
+ text-decoration: underline;
+}
+a:link, a:visited {
+    background-color: #030303;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(83, 83, 83);
+    text-decoration: underline;
+  }
+  table {
+    border-collapse: collapse;
+    width: 70%;
+  }
+   td,th{
+    border: 2px solid rgb(128, 128, 221);
+    text-align: center;
+    vertical-align:center;
+    padding: 15px;
+  }
+  tr:hover{
+    background-color: #da8e8e;
+  }
+  #upbutton{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    color: #7e2f2f;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .goup{
+    width: 100%;
+  }
