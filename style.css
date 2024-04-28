@@ -20,25 +20,6 @@ p{
     width: 200px;
 
 }
-.headertext
-{
-    color: #f82008;
-    letter-spacing: 2px;
-    line-height: 1.8;
-    text-align: center;
-    text-decoration: none !important;
-    font-size: 1em;
- 
-    
-    
-}
-.headerdescription
-{
-    font-size: 1em;
-    color: #0699f5;
-    text-align: center;
-    text-shadow: 4px 6px rgb(168, 168, 233)
-}
 .hello{
     text-transform: uppercase;
 }
